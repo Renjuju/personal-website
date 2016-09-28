@@ -41,8 +41,8 @@
 <header class="header" id="header"><!--header-start-->
 	<div class="container">
     	<figure class="logo animated fadeInDown delay-07s">
-        	<a href="#"><img src="img/logo.png" alt=""></a>	
-        </figure>	
+        	<a href="#"><img src="img/logo.png" alt=""></a>
+        </figure>
         <h1 class="animated fadeInDown delay-07s">Renju Radhakrishnan</h1>
         <ul class="we-create animated fadeInUp delay-1s">
         	<li style="color:white">Front-end Software Engineer</li>
@@ -59,7 +59,6 @@
         	<li><a href="#header">Home</a></li>
             <li><a href="#me">Me</a></li>
             <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#client">Vouchers</a></li>
             <li><a href="#resume">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -121,7 +120,7 @@
             </div>
             <figure class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-02s">
             	<!-- <img src="img/renju.jpg" alt=""> -->
-                <div class="team-leader wow fadeInDown delay-03s"> 
+                <div class="team-leader wow fadeInDown delay-03s">
                     <div class=""><a href="#"></a></div>
                     <img src="img/renju.jpg" alt="">
 <!--                     <ul>
@@ -131,7 +130,7 @@
                         <li><a href="#" class="fa-google-plus"></a></li>
                     </ul> -->
                 </div>
-            </figure>        
+            </figure>
         </div>
 	</div>
 </section><!--main-section-end-->
@@ -148,39 +147,39 @@
                 <div class="featured-box">
                 	<div class="featured-box-col1 wow fadeInRight delay-02s">
                     	<i class="fa-bug"></i>
-                    </div>	
+                    </div>
                 	<div class="featured-box-col2 wow fadeInRight delay-02s">
-                        <h3>Web Crawler</h3>
+                        <h3><a href="https://github.com/Renjuju/WebCrawler">Web Crawler</a></h3>
                         <p>Created a concurrent Java web crawler with an interactive menu, page ranking, and robots.txt support for all web pages.
                         Runs multiple instances of itself along with filtering for specific keywords.</p>
-                    </div>    
+                    </div>
                 </div>
                 <div class="featured-box">
                 	<div class="featured-box-col1 wow fadeInRight delay-04s">
                     	<i class="fa-circle"></i>
-                    </div>	
+                    </div>
                 	<div class="featured-box-col2 wow fadeInRight delay-04s">
-                        <h3>Checkers</h3>
+                        <h3><a href="https://github.com/Renjuju/Checkers">Checkers</a></h3>
                         <p><a href="http://checkers.renju.in/#/">Online Checkers game</a> using NodeJS, AngularJS, and Socket with a team of 3 to allow people around the world to play against each other. Hosted on a linux server with a continuous integration build server using Docker and deployment through FlightPlanJS.</p>
-                    </div>    
+                    </div>
                 </div>
                 <div class="featured-box">
                 	<div class="featured-box-col1 wow fadeInRight delay-06s">
                     	<i class="fa-book"></i>
-                    </div>	
+                    </div>
                 	<div class="featured-box-col2 wow fadeInRight delay-06s">
-                        <h3>Linux Kernel Development</h3>
+                        <h3><a href="https://github.com/Renjuju/Linux-Kernel">Linux Kernel Development</a></h3>
                         <p>Developed system calls, created a fair-share scheduling algorithm, and added interprocess communication through message queues. Implemented unit tests on individual components to ensure working functionality.</p>
-                    </div>    
+                    </div>
                 </div>
                 <div class="featured-box">
                     <div class="featured-box-col1 wow fadeInRight delay-06s">
                         <i class="fa-globe"></i>
-                    </div>  
+                    </div>
                     <div class="featured-box-col2 wow fadeInRight delay-06s">
-                        <h3>This Website</h3>
+                        <h3><a href="https://github.com/Renjuju/renjuju.github.io">This Website</a></h3>
                         <p>Built using Bootstrap template.</p>
-                    </div>    
+                    </div>
                 </div>
                 <a class="Learn-More" href="#">Learn More</a>
             </div>
@@ -189,7 +188,7 @@
 </section><!--main-section alabaster-end-->
 
 
-<section class="main-section client-part" id="client"><!--main-section client-part-start-->
+<!-- <section class="main-section client-part" id="client">
 	<div class="container">
 		<b class="quote-right wow fadeInDown delay-03"><i class="fa-quote-right"></i></b>
     	<div class="row">
@@ -205,7 +204,7 @@
             </a></li>
         </ul>
     </div>
-</section><!--main-section client-part-end-->
+</section> -->
 
 <section class="main-section" id="resume"><!--main-section team-start-->
 	<div class="container">
@@ -218,12 +217,12 @@
 \
 <section class="business-talking"><!--business-talking-start-->
 	<div class="container">
-        <h2>Say Hello!</h2>
+        <h2>Contact</h2>
     </div>
 </section><!--business-talking-end-->
 <div class="container">
 <section class="main-section contact" id="contact">
-	
+
         <div class="row">
         	<div class="col-lg-6 col-sm-7 wow fadeInLeft">
                 <div class="contact-info-box email clearfix">
@@ -246,10 +245,10 @@
         $('#test').scrollToFixed();
         $('.res-nav_click').click(function(){
             $('.main-nav').slideToggle();
-            return false    
-            
+            return false
+
         });
-        
+
     });
 </script>
 
@@ -261,16 +260,16 @@
       }
     );
     wow.init();
- 
+
   </script>
 
 
 <script type="text/javascript">
 	$(window).load(function(){
-		
+
 		$('.main-nav li a').bind('click',function(event){
 			var $anchor = $(this);
-			
+
 			$('html, body').stop().animate({
 				scrollTop: $($anchor.attr('href')).offset().top - 102
 			}, 1500,'easeInOutExpo');
@@ -282,14 +281,14 @@
 <script type="text/javascript">
 
 $(window).load(function(){
-  
-  
+
+
   var $container = $('.portfolioContainer'),
       $body = $('body'),
       colW = 375,
       columns = null;
 
-  
+
   $container.isotope({
     // disable window resizing
     resizable: true,
@@ -297,7 +296,7 @@ $(window).load(function(){
       columnWidth: colW
     }
   });
-  
+
   $(window).smartresize(function(){
     // check if columns has changed
     var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
@@ -308,20 +307,20 @@ $(window).load(function(){
       $container.width( columns * colW )
         .isotope('reLayout');
     }
-    
+
   }).smartresize(); // trigger resize to set container width
   $('.portfolioFilter a').click(function(){
         $('.portfolioFilter .current').removeClass('current');
         $(this).addClass('current');
- 
+
         var selector = $(this).attr('data-filter');
         $container.isotope({
-			
+
             filter: selector,
          });
          return false;
     });
-  
+
 });
 
 </script>

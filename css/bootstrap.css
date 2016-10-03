@@ -693,17 +693,17 @@ pre code {
   clear: both;
 }
 @media (min-width: 768px) {
-  .container {
+  .renju {
     width: 750px;
   }
 }
 @media (min-width: 992px) {
-  .container {
+  .renju {
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
-  .container {
+  .renju {
     width: 1170px;
   }
 }

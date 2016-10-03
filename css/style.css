@@ -99,8 +99,8 @@ p{
 .header{
 	text-align:center;
 	/*background:url(../img/philly.jpg) ;*/
-	background-color: #000000;
-	padding:280px 0;
+	/*background-color: #000000;*/
+background: /* On "top" */ repeating-linear-gradient( 45deg, transparent, rgba(255, 255, 255, 0) 25px, #967777 10px, #633a3a 20px ), /* on "bottom" */ linear-gradient( to bottom, rgb(102, 116, 113), #000 )
 }
 .logo{
 	width:130px;
@@ -594,7 +594,8 @@ border: 2px solid #fff;
 ---------------------------------*/
 .business-talking{
 	/*background:url(../img/section-bg2.jpg) top center no-repeat;*/
-  background: #000000;
+  /*background: #000000;*/
+  background: /* On "top" */ repeating-linear-gradient( 45deg, transparent, rgba(255, 255, 255, 0) 25px, #967777 10px, #633a3a 20px ), /* on "bottom" */ linear-gradient( to bottom, rgb(102, 116, 113), #000 );
 	background-size:cover;
 	padding:60px 0 10px;
 	text-align:center;

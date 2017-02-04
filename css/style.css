@@ -99,7 +99,7 @@ p{
 .header{
 	text-align:center;
 	/*background:url(../img/philly.jpg) ;*/
-	background-color: darkslategrey;
+	background-color: currentColor;
  /*background: repeating-linear-gradient( 45deg, transparent, rgba(255, 255, 255, 0) 25px, #967777 10px, #633a3a 20px ), linear-gradient( to bottom, rgb(102, 116, 113), #000 )*/*/
 }
 .logo{
